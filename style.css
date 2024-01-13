@@ -72,12 +72,12 @@ nav ul li:hover:not(.ipt) {
 }
 
 #products {
-  background-color: rgb(176, 188, 188);
+  background-color: rgb(224, 230, 230 ,0.1);
   padding: 50px;
 }
 
 .product-content {
-  background-color: azure;
+  background-color: rgb(105, 107, 107,0.3);
   padding: 25px;
 }
 h2 {
@@ -111,7 +111,7 @@ h2 {
   padding: 100px;
   background: linear-gradient(to right, rgb(15, 15, 15), rgb(230, 100, 36));
   justify-content: space-between;
-  box-shadow: 0 0px 10px black;
+  box-shadow: 0 0px 10px rgb(159, 158, 158);
 }
 .about-img img {
   height: auto;
