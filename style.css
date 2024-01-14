@@ -37,13 +37,12 @@ nav ul li {
 
   align-items: center;
 }
-.search{
-    height: 1.5rem;
-    width: 1.5rem;
-  
-   margin: 10px;
-   margin-left: -1rem;
+.search {
+  height: 1.5rem;
+  width: 1.5rem;
 
+  margin: 10px;
+  margin-left: -1rem;
 }
 
 nav ul li:hover:not(.ipt) {
@@ -72,12 +71,12 @@ nav ul li:hover:not(.ipt) {
 }
 
 #products {
-  background-color: rgb(224, 230, 230 ,0.1);
+  background-color: rgb(224, 230, 230, 0.1);
   padding: 50px;
 }
 
 .product-content {
-  background-color: rgb(105, 107, 107,0.3);
+  background-color: rgb(105, 107, 107, 0.3);
   padding: 25px;
 }
 h2 {
@@ -115,29 +114,25 @@ h2 {
 }
 .about-img img {
   height: auto;
-  max-width: 50%;
+  max-width: 30%;
   border-radius: 50%;
   transform: rotate(-10deg);
-  float:right;
+  float: right;
   box-shadow: 0 10px 10px black;
-
-  align-items: center;
- 
-  
- 
 }
-.about-text{
-    padding: 0 25px;
-    background: rgba(84, 27, 27, 0.25);
-box-shadow: 0 8px 32px 0 rgba(187, 191, 240, 0.37);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba(55, 16, 16, 0.18);
+.about-text {
+  padding: 0 25px;
+  background: rgba(84, 27, 27, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(187, 191, 240, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(55, 16, 16, 0.18);
 }
-.about-text p{
-    text-wrap:pretty ;
-    margin: 1rem auto;
-
+.about-text p {
+  margin: 1rem auto;
 }
-
+.about-img img:hover {
+  transform: scale(1.5);
+  margin: 50px 100px 0 0;
+}
